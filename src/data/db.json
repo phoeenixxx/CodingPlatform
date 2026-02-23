@@ -1,0 +1,125 @@
+{
+  "modules": [
+    {
+      "id": "m1",
+      "titleKa": "1. ვებ გვერდის მარკირება და სტილებით გაფორმება",
+      "titleEn": "1. Web Page Markup and Styling",
+      "lessons": [
+        { "id": "m1_lo1", "titleKa": "ვებ გვერდის სტრუქტურის აგება", "titleEn": "Building Web Page Structure", "theoryKa": "ვებგვერდის სტრუქტურის აგება W3C სტანდარტების დაცვით.", "theoryEn": "Building web page structure following W3C standards.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m1_lo2", "titleKa": "ვებ გვერდზე ობიექტების და ბმულების ასახვა", "titleEn": "Displaying Objects and Links", "theoryKa": "გრაფიკული ობიექტების, ბმულების, ცხრილების და მულტიმედიის ასახვა.", "theoryEn": "Displaying graphic objects, links, tables, and multimedia.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m1_lo3", "titleKa": "ვებ გვერდზე ფორმების ასახვა", "titleEn": "Displaying Forms on Webpage", "theoryKa": "ფორმის ელემენტების განთავსება, პარამეტრების და ატრიბუტების მინიჭება.", "theoryEn": "Placing form elements, assigning parameters and attributes.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m1_lo4", "titleKa": "ვებგვერდის ელემენტების გაფორმება სტილების საშუალებით", "titleEn": "Styling Webpage Elements", "theoryKa": "სელექტორების, ფონის თვისებების, ვებფონტების და ანიმაციის გამოყენება.", "theoryEn": "Using selectors, background properties, web fonts, and animations.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m1_lo5", "titleKa": "ვებგვერდის ინტერფეისის მორგება სხვადასხვა მოწყობილობებზე", "titleEn": "Responsive Interface Styling", "theoryKa": "გლობალური და ცალკეული ელემენტების სტილების შემუშავება და თავსებადობის შემოწმება.", "theoryEn": "Developing global and individual element styles and checking compatibility.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m1_lo6", "titleKa": "ვებგვერდის ინტერფეისის გაფორმება დიზაინის ხელსაწყოს საშუალებით", "titleEn": "Interface Styling via Design Tools", "theoryKa": "გრაფიკული ხელსაწყოს ინსტალაცია და ობიექტების ექსპორტირება კოდის გასაფორმებლად.", "theoryEn": "Installing graphic tools and exporting objects to style the code.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m2",
+      "titleKa": "2. ვებ გვერდის სტილიზაცია Sass-scss პრე პროცესორის და Tailwind ფრეიმვორკის გამოყენებით",
+      "titleEn": "2. Styling with Sass/scss and Tailwind Framework",
+      "lessons": [
+        { "id": "m2_lo1", "titleKa": "ვებგვერდის კომპონენტების გაფორმება Sass/scss პრე პრიცესორის შესაძლებლობებით", "titleEn": "Styling with Sass/scss Preprocessor", "theoryKa": "Sass/scss-ის ინსტალაცია, დაკავშირება და ცვლადების გამოყენება.", "theoryEn": "Installing Sass/scss, connecting it, and using variables.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m2_lo2", "titleKa": "ვებგვერდის მაკეტის აგება Tailwind-ის საშუალებით", "titleEn": "Building Layout with Tailwind", "theoryKa": "Tailwind-ის ინსტალაცია და ადაპტირებული მაკეტის შექმნა სხვადასხვა მოწყობილობისთვის.", "theoryEn": "Installing Tailwind and creating an adapted layout for various devices.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m2_lo3", "titleKa": "ვებგვერდის ობიექტების გაფორმება Tailwind-ის საშუალებით", "titleEn": "Styling Objects with Tailwind", "theoryKa": "ფორმების, ღილაკების და რესპონსიული ბლოკების გაფორმება Tailwind-ის თვისებებით.", "theoryEn": "Styling forms, buttons, and responsive blocks with Tailwind properties.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m3",
+      "titleKa": "3. ვებგვერდის ინტერაქტიულობისა და ეფექტების შექმნა JavaScript-ის საშუალებით",
+      "titleEn": "3. Interactivity and Effects via JavaScript",
+      "lessons": [
+        {
+          "id": "m3_lo1",
+          "titleKa": "მარტივი ამოცანის გადაწყვეტა JavaScript ენის ძირითადი ელემენტების გამოყენებით",
+          "titleEn": "Simple Tasks with JavaScript",
+          "theoryKa": "ცვლადების, ფუნქციების, ოპერატორების და გამოტანის ოპერატორების გამოყენება.",
+          "theoryEn": "Using variables, functions, operators, and output operators.",
+          "resources": {
+            "presentation": ["https://docs.google.com/presentation/d/13bweuWWCp2BfqDqmVtPQbK6GZu0vnCzD/edit?slide=id.p1#slide=id.p1"],
+            "readingMaterial": ["https://docs.google.com/document/d/13a_o5CYa2UIOOiiS4gOiew9rLKpwWVyVQD6YlyjGPjo/edit?tab=t.0#heading=h.x5ct3rjc3jle"],
+            "taskFile": []
+          }
+        },
+        { "id": "m3_lo2", "titleKa": "ამოცანის გადაჭრა ძირითადი კონსტრუქციების გამოყენებით", "titleEn": "Solving Tasks with Core Constructs", "theoryKa": "პირობითი ოპერატორების, ციკლების და მოვლენების გამოყენება.", "theoryEn": "Using conditional operators, loops, and events.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m3_lo3", "titleKa": "მასივებთან და ობიექტთან მუშაობა", "titleEn": "Working with Arrays and Objects", "theoryKa": "მასივებთან მუშაობის ფუნქციები და მონაცემთა ტრანსფორმაცია.", "theoryEn": "Array methods and data transformation.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m3_lo4", "titleKa": "ბრაუზერთან სამუშაო ფუნქციების გამოყენება", "titleEn": "Browser Functions Usage", "theoryKa": "დროის, თარიღის, ბრაუზერის და ტაიმერის ფუნქციების გამოყენება.", "theoryEn": "Using time, date, browser, and timer functions.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m3_lo5", "titleKa": "DOM მანიპულაციების შესრულება", "titleEn": "Executing DOM Manipulations", "theoryKa": "სელექტორული ფუნქციების გამოყენება და ახალი ელემენტების შექმნა DOM-ში.", "theoryEn": "Using selector functions and creating new elements in the DOM.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m3_lo6", "titleKa": "API-თან ურთიერთქმედება ასინქრონული პროგრამირების გამოყენებით (fetch)", "titleEn": "API Interaction via Fetch", "theoryKa": "ასინქრონული ფუნქციების და fetch მეთოდის გამოყენება სერვერთან ურთიერთობისთვის.", "theoryEn": "Using asynchronous functions and fetch for server communication.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m4",
+      "titleKa": "4. დინამიური ვებგვერდის  შექმნა typescript-ის საშუალებით",
+      "titleEn": "4. Dynamic Web Pages with TypeScript",
+      "lessons": [
+        { "id": "m4_lo1", "titleKa": "typescript-ის კონფიგურირება", "titleEn": "TypeScript Configuration", "theoryKa": "TS-ის ინსტალაცია და პარამეტრების კონფიგურირება ბრაუზერისთვის.", "theoryEn": "Installing TS and configuring parameters for browsers.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m4_lo2", "titleKa": "მარტივი ამოცანის გადაწყვეტა typescript-ის ენის ძირითადი ელემენტების გამოყენებით", "titleEn": "Simple Tasks with TypeScript", "theoryKa": "ცვლადების ტიპიზაცია, საბაზისო ოპერატორები და ციკლის კონსტრუქციები.", "theoryEn": "Variable typing, basic operators, and loop constructs.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m4_lo3", "titleKa": "მონაცემების დამუშავება types და interface-ის გამოყენებით", "titleEn": "Data Processing with Types/Interfaces", "theoryKa": "ახალი ტიპების და ინტერფეისების შექმნა და მონაცემთა დამუშავება.", "theoryEn": "Creating new types and interfaces and processing data.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m4_lo4", "titleKa": "ამოცანის გადაჭრა OOP-ის საშუალებით", "titleEn": "OOP Problem Solving", "theoryKa": "კონსტრუქტორების, კლასების და OOP-ის მთავარი პრინციპების გამოყენება.", "theoryEn": "Using constructors, classes, and core OOP principles.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m5",
+      "titleKa": "5. ვებგვერდის ინტერაქტიულობისა და ეფექტების შემუშავება React-ის საშუალებით",
+      "titleEn": "5. Interactivity with React",
+      "lessons": [
+        { "id": "m5_lo1", "titleKa": "პროექტის შექმნა React ბიბლიოთეკის გამოყენებით", "titleEn": "React Project Creation", "theoryKa": "Vite-ის ინსტალაცია და რეაქტის სამუშაო გარემოს შექმნა.", "theoryEn": "Installing Vite and creating React workspace.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m5_lo2", "titleKa": "დასმული ამოცანის გადაწყვეტა React Hooks-ის გამოყენებით", "titleEn": "Solving Tasks with React Hooks", "theoryKa": "useState, useEffect, useContext და სხვა ჰუკების გამოყენება წარმადობისთვის.", "theoryEn": "Using useState, useEffect, useContext, and hooks for performance.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m5_lo3", "titleKa": "კომპონენტების კომპოზიცია და მათი თვისებების მართვა", "titleEn": "Component Composition and Props", "theoryKa": "კომპონენტების შექმნა, მონაცემთა გადაცემა props-ით და პირობითი რენდერი.", "theoryEn": "Creating components, passing data via props, and conditional rendering.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m5_lo4", "titleKa": "SPA-ს (SINGLE PAGE APPLICATION) გამართვა react-router-ის გამოყენებით", "titleEn": "Configuring SPA with react-router", "theoryKa": "გვერდების კომპონენტების შექმნა, როუტერის და დინამიური გვერდების გამართვა.", "theoryEn": "Creating page components, configuring router, and dynamic pages.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m5_lo5", "titleKa": "ინფორმაციის მენეჯმენტი", "titleEn": "Information Management (Redux)", "theoryKa": "Redux-toolkit-ის ინსტალაცია და გლობალური მონაცემების მართვა.", "theoryEn": "Installing Redux-toolkit and managing global data.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m5_lo6", "titleKa": "ფორმის კონტროლი და ვალიდაცია Formik-ს გამოყენებით", "titleEn": "Form Control and Validation", "theoryKa": "Formik-ის და ვალიდაციის პაკეტების გამოყენება ფორმებისთვის.", "theoryEn": "Using Formik and validation packages for forms.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m6",
+      "titleKa": "6. ვებ გვერდის ოპტიმიზაცია",
+      "titleEn": "6. Web Page Optimization",
+      "lessons": [
+        { "id": "m6_lo1", "titleKa": "ვებგვერდის წარმადობის ოპტიმიზაცია", "titleEn": "Performance Optimization", "theoryKa": "წარმადობის გაზომვა ხელსაწყოებით (Lighthouse) და ოპტიმიზაციის ტექნიკები.", "theoryEn": "Measuring performance via tools (Lighthouse) and techniques.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m6_lo2", "titleKa": "პროგრამული კოდის გამართვა (Debugging)", "titleEn": "Software Code Debugging", "theoryKa": "კოდის გამართვის ინსტრუმენტების გამოყენება და შეცდომების ანალიზი.", "theoryEn": "Using debugging tools and analyzing errors.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m6_lo3", "titleKa": "ვებგვერდის აპლიკაციის თავსებადობა", "titleEn": "Web App Compatibility", "theoryKa": "ბრაუზერებთან და პლატფორმებთან თავსებადობის ტესტირება.", "theoryEn": "Testing compatibility with browsers and platforms.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m7",
+      "titleKa": "7. ვერსიების კონტროლი Git ტექნოლოგიის გამოყენებით",
+      "titleEn": "7. Version Control via Git Technology",
+      "lessons": [
+        { "id": "m7_lo1", "titleKa": "კოდის ვერსიის კონტროლის საფუძვლები", "titleEn": "Version Control Basics", "theoryKa": "Git და GitHub-ის გამოყენება კოდის საცავების სამართავად.", "theoryEn": "Using Git and GitHub to manage repositories.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m7_lo2", "titleKa": "გუნდური პროექტის ვერსიის კონტროლი", "titleEn": "Team Project Version Control", "theoryKa": "პროექტის კოპირება და განშტოებების მართვა რეპოზიტორში.", "theoryEn": "Copying projects and managing branches in the repository.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m7_lo3", "titleKa": "კოდის ვერსიის კონფლიქტების მოგვარება", "titleEn": "Resolving Version Conflicts", "theoryKa": "კონფლიქტების იდენტიფიცირება და მოგვარება საზიარო საცავში.", "theoryEn": "Identifying and resolving conflicts in shared repositories.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m8",
+      "titleKa": "8. დარგობრივი ინგლისური ენა Front-end დეველოპმენტისთვის",
+      "titleEn": "8. Vocational English for Front-end",
+      "lessons": [
+        { "id": "m8_lo1", "titleKa": "პროფესიულ საკითხებთან დაკავშირებული მასალის მოძიება", "titleEn": "Professional Material Search", "theoryKa": "საკვანძო სიტყვების შერჩევა და რელევანტური ინფორმაციის მოძიება.", "theoryEn": "Selecting keywords and searching for relevant information.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m8_lo2", "titleKa": "პროფესიულ საკითხებთან დაკავშირებული მასალის გაცნობა", "titleEn": "Professional Material Review", "theoryKa": "მიწოდებული მასალის არსის გაცნობა და დეტალების გამოკვეთა.", "theoryEn": "Reviewing provided materials and highlighting details.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m8_lo3", "titleKa": "პროფესიულ საკითხებთან დაკავშირებული მასალის თარგმნა", "titleEn": "Professional Material Translation", "theoryKa": "შესაბამისი ტერმინოლოგიის და მთავარი ინფორმაციის თარგმნა.", "theoryEn": "Translating relevant terminology and core info.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m9",
+      "titleKa": "9. პრაქტიკული პროექტი",
+      "titleEn": "9. Practical Project",
+      "lessons": [
+        { "id": "m9_lo1", "titleKa": "პროფესიული ამოცანის დამოუკიდებლად დაგეგმვა", "titleEn": "Planning Professional Tasks", "theoryKa": "სამუშაო გეგმის შექმნა, ეტაპების და რესურსების განსაზღვრა.", "theoryEn": "Creating work plans, defining stages and resources.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m9_lo2", "titleKa": "პროფესიული ამოცანის დამოუკიდებლად შესრულება", "titleEn": "Executing Professional Tasks", "theoryKa": "ამოცანის შესრულება, პრობლემების მოგვარება და ინფორმაციის მოძიება.", "theoryEn": "Executing tasks, solving problems, and searching for info.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m9_lo3", "titleKa": "შესრულებული ამოცანების ანგარიშგება", "titleEn": "Reporting Executed Tasks", "theoryKa": "პროდუქტის წარდგენა და შესრულებული სამუშაოს ანგარიშის შემუშავება.", "theoryEn": "Presenting products and developing work reports.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    },
+    {
+      "id": "m10",
+      "titleKa": "10. ხელოვნური ინტელექტის გამოყენება",
+      "titleEn": "10. Using Artificial Intelligence",
+      "lessons": [
+        { "id": "m10_lo1", "titleKa": "ხელოვნური ინტელექტის საფუძვლებისა და აპლიკაციების გაცნობა", "titleEn": "Introduction to AI Basics", "theoryKa": "ხელოვნური ინტელექტის მნიშვნელობის, მიმართულებების და ეთიკური ნორმების განსაზღვრა.", "theoryEn": "Defining AI importance, fields, and ethical norms.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } },
+        { "id": "m10_lo2", "titleKa": "ხელოვნური ინტელექტის ხელსაწყოების პრაქტიკული გამოყენება", "titleEn": "Practical AI Tools Usage", "theoryKa": "ეფექტური prompt-ის ჩამოყალიბება და AI პლატფორმების გამოყენება.", "theoryEn": "Formulating effective prompts and using AI platforms.", "resources": { "presentation": ["#"], "readingMaterial": ["#"], "taskFile": ["#"] } }
+      ]
+    }
+  ],
+  "tasks": []
+}
