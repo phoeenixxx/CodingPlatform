@@ -1,4 +1,6 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Globe } from 'lucide-react';
 
 const Navbar = () => {
   const { i18n } = useTranslation();
@@ -8,25 +10,24 @@ const Navbar = () => {
   };
 
   return (
-    <header className="h-16 bg-editor-bg border-b border-gray-800 flex items-center justify-between px-6">
-      <div className="flex items-center gap-4"></div>
-      <div className="flex items-center gap-3">
-        <button
-          onClick={() => changeLanguage('ka')}
-          className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
-            i18n.language === 'ka' ? 'bg-editor-accent text-white' : 'bg-editor-active text-gray-300 hover:bg-gray-700'
-          }`}
-        >
-          KA
-        </button>
-        <button
-          onClick={() => changeLanguage('en')}
-          className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
-            i18n.language === 'en' ? 'bg-editor-accent text-white' : 'bg-editor-active text-gray-300 hover:bg-gray-700'
-          }`}
-        >
-          EN
-        </button>
+    <header className="h-16 bg-editor-sidebar border-b border-gray-800 flex items-center justify-between px-8 sticky top-0 z-40">
+      <div className="flex items-center gap-4">
+        <Globe size={18} className="text-gray-500" />
+        <div className="flex gap-3">
+          <button 
+            onClick={() => changeLanguage('ka')}
+            className={`text-sm font-bold transition-colors ${i18n.language === 'ka' ? 'text-editor-accent' : 'text-gray-500 hover:text-white'}`}
+          >
+            KA
+          </button>
+          <span className="text-gray-800">|</span>
+          <button 
+            onClick={() => changeLanguage('en')}
+            className={`text-sm font-bold transition-colors ${i18n.language === 'en' ? 'text-editor-accent' : 'text-gray-500 hover:text-white'}`}
+          >
+            EN
+          </button>
+        </div>
       </div>
     </header>
   );
