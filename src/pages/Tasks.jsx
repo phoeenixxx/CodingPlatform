@@ -36,6 +36,18 @@ const Tasks = () => {
       ]
     },
     {
+      id: "m6",
+      moduleIndex: "06",
+      title: t('m6_title'),
+      tasks: [
+        { id: "m6_lo1_1", lessonTitle: t('m6_lo1') + " - 1", taskFile: "https://docs.google.com/document/d/1a0IYEYickXr3Oy3SvCBOF_VuveEfPE9X9o1c0BafOvg/preview?rm=minimal" },
+        { id: "m6_lo1_2", lessonTitle: t('m6_lo1') + " - 2", taskFile: "https://docs.google.com/document/d/1LBHsJBQZmB7AvqgEirovvradCFdBmm8OlPkxLgenNVU/preview?rm=minimal" },
+        { id: "m6_lo2_1", lessonTitle: t('m6_lo2') + " - 1", taskFile: "https://docs.google.com/document/d/1s-t-M0w9aPeNcB_HW_zx7Po1s52m5tc8oAct4LxRws8/preview?rm=minimal" },
+        { id: "m6_lo2_2", lessonTitle: t('m6_lo2') + " - 2", taskFile: "https://docs.google.com/document/d/1tFIGY-apxvVvrzuek6wKkigighzcb1fnO7b2Vmm8bzc/preview?rm=minimal" },
+        { id: "m6_lo3", lessonTitle: t('m6_lo3'), taskFile: "https://docs.google.com/document/d/1sdjsDU8-YQmiTy_QDhGUXAv1qK-0T9GuFGw1keTH2rs/preview?rm=minimal" }
+      ]
+    },
+    {
       id: "m7",
       moduleIndex: "07",
       title: t('m7_title'),

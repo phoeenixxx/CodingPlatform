@@ -27,7 +27,13 @@ const Materials = () => {
         { id: "m4_m5", title: t('m4_lo4') + " - Material 2", url: "https://docs.google.com/document/d/1FuQGxZKq3O-r1ManZ4SuLRK0jHlFlRq-38El7CKA0q8/preview?rm=minimal" }
     ]},
     { id: "m5", title: t('m5_title'), lessons: [] },
-    { id: "m6", title: t('m6_title'), lessons: [] },
+    { id: "m6", title: t('m6_title'), lessons: [
+        { id: "m6_m1_1", title: t('m6_lo1') + " - Material 1", url: "https://docs.google.com/document/d/1KLSwDTWg9NOAOZg5J3AzMwg65oc4eIlUSu1fdtfSyM0/preview?rm=minimal" },
+        { id: "m6_m1_2", title: t('m6_lo1') + " - Material 2", url: "https://docs.google.com/document/d/1NfUV4rrWfhNll7xcwHfng_Q48J_GYyXP7NcqXobDPOM/preview?rm=minimal" },
+        { id: "m6_m2_1", title: t('m6_lo2') + " - Material 1", url: "https://docs.google.com/document/d/1QAAn9FQBAqR5arE5FnKr08bMhXUuIvF-XCW2PflzPcY/preview?rm=minimal" },
+        { id: "m6_m2_2", title: t('m6_lo2') + " - Material 2", url: "https://docs.google.com/document/d/19ecM2HqVEW82D42ohibVjX-mz1KKi0879RNQxGCYyxg/preview?rm=minimal" },
+        { id: "m6_m3", title: t('m6_lo3') + " - Material", url: "https://docs.google.com/document/d/1is4MF26nGWc2jggpRT3YUUcMMv2WwsI6QxSjlFwirFw/preview?rm=minimal" }
+    ]},
     { id: "m7", title: t('m7_title'), lessons: [
         { id: "m7_m1", title: t('m7_lo1') + " - Material", url: "https://docs.google.com/document/d/1Edt2TCU5fj__7emswvudN67IFK27-V41muL3T0iG7gE/preview?rm=minimal" },
         { id: "m7_m2", title: t('m7_lo2') + " - Material", url: "https://docs.google.com/document/d/1oFamSksgIXbwdieHGUa8_XXuo_UVsMA3nOROgolJP8k/preview?rm=minimal" },

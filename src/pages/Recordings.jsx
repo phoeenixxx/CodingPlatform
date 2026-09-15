@@ -30,7 +30,13 @@ const Recordings = () => {
         { id: "m4_v5", title: t('m4_lo4') + " - 2", thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/1Dcld0GWGrdZ_vANMEn9jWDtVfg4oCycS/preview" }
     ]},
     { id: "m5", title: t('m5_title'), videos: [] },
-    { id: "m6", title: t('m6_title'), videos: [] },
+    { id: "m6", title: t('m6_title'), videos: [
+        { id: "m6_v1_1", title: t('m6_lo1') + " - 1", thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/1fAGiiJE3-2S6UK4FlJpo3mqyUEpLIxQr/preview" },
+        { id: "m6_v1_2", title: t('m6_lo1') + " - 2", thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/1cIF0No1aLBYkyKPQFRqobJBkz6NZuf9b/preview" },
+        { id: "m6_v2_1", title: t('m6_lo2') + " - 1", thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/1gZU11v0RaPO1xgUS1XFHSecF2SYKLHzx/preview" },
+        { id: "m6_v2_2", title: t('m6_lo2') + " - 2", thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/1i5fiE-TTjVc75GE3ziKb1sbIq5Yz_Cc4/preview" },
+        { id: "m6_v3", title: t('m6_lo3'), thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/1wxi5V-Dngc6zjozHMCN8VkECwf8l43Om/preview" }
+    ]},
     { id: "m7", title: t('m7_title'), videos: [
         { id: "m7_v1", title: t('m7_lo1'), thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/1MKuF7KZwAde5lIH9_3pczZ_lRr20IpnE/preview" },
         { id: "m7_v2", title: t('m7_lo2'), thumbnail: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop", url: "https://drive.google.com/file/d/13RQd2VjNZwrVKgdIHqB0WpE0-23n579j/preview" },

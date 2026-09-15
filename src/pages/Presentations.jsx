@@ -28,7 +28,13 @@ const Presentations = () => {
         { id: "m4_p5", title: t('m4_lo4') + " - Presentation 2", url: "https://docs.google.com/presentation/d/1RET01U6phGqUAEsJDa5MFy1tto-zCYOqK99bGnQK1x8/embed?rm=minimal" }
     ]},
     { id: "m5", title: t('m5_title'), presentations: [] },
-    { id: "m6", title: t('m6_title'), presentations: [] },
+    { id: "m6", title: t('m6_title'), presentations: [
+        { id: "m6_p1_1", title: t('m6_lo1') + " - Presentation 1", url: "https://docs.google.com/presentation/d/1kOKPMz4ZQSQM3tLHYwfN5ckXOQWbrcmr/embed?rm=minimal" },
+        { id: "m6_p1_2", title: t('m6_lo1') + " - Presentation 2", url: "https://docs.google.com/presentation/d/1hED1c9_Isahe0Kz_DT2y7cMvvBXTWnIG/embed?rm=minimal" },
+        { id: "m6_p2_1", title: t('m6_lo2') + " - Presentation 1", url: "https://docs.google.com/presentation/d/14zl_nMRFEkZXis63DM2yTgG7f64IIsuo/embed?rm=minimal" },
+        { id: "m6_p2_2", title: t('m6_lo2') + " - Presentation 2", url: "https://docs.google.com/presentation/d/1g0a0n1u4LBMATXYAfKkNQ_XtKQTRSCZ3/embed?rm=minimal" },
+        { id: "m6_p3", title: t('m6_lo3') + " - Presentation", url: "https://docs.google.com/presentation/d/1LutUIi3SdIJReyej95vJduUwcCu4iRKA/embed?rm=minimal" }
+    ]},
     { id: "m7", title: t('m7_title'), presentations: [
         { id: "m7_p1", title: t('m7_lo1') + " - Presentation", url: "https://docs.google.com/presentation/d/1RWIs8WPHHMM6t29Gom_rmN6qfqnyubvVijvvGMvwzRQ/embed?rm=minimal" },
         { id: "m7_p2", title: t('m7_lo2') + " - Presentation", url: "https://docs.google.com/presentation/d/12suEy5h8UfXnyB8K0C2jNhM-eJkoDLI7P-LHyfncs58/embed?rm=minimal" },
