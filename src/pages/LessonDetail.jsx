@@ -121,6 +121,49 @@ const LessonDetail = () => {
         { title: "Task 2", url: "https://docs.google.com/document/d/1fNZ4eACCmek-ZYVn-FsLb65d8EAw7lwll3geVdNN7zM/preview?rm=minimal" }
       ]
     },
+    "m6_lo1": {
+      title: t('m6_lo1'),
+      moduleName: t('m6_title'),
+      readings: [
+        { title: t('m6_lo1') + " - Material 1", url: "https://docs.google.com/document/d/m6_mat_1/preview?rm=minimal" },
+        { title: t('m6_lo1') + " - Material 2", url: "https://docs.google.com/document/d/m6_mat_2/preview?rm=minimal" }
+      ],
+      presentations: [
+        { title: t('m6_lo1') + " - Presentation 1", url: "https://docs.google.com/presentation/d/m6_pres_1/embed?rm=minimal" },
+        { title: t('m6_lo1') + " - Presentation 2", url: "https://docs.google.com/presentation/d/m6_pres_2/embed?rm=minimal" }
+      ],
+      taskFiles: [
+        { title: "Task 1", url: "https://docs.google.com/document/d/m6_task_1/preview?rm=minimal" },
+        { title: "Task 2", url: "https://docs.google.com/document/d/m6_task_2/preview?rm=minimal" }
+      ]
+    },
+    "m6_lo2": {
+      title: t('m6_lo2'),
+      moduleName: t('m6_title'),
+      readings: [
+        { title: t('m6_lo2') + " - Material 1", url: "https://docs.google.com/document/d/m6_mat_3/preview?rm=minimal" },
+        { title: t('m6_lo2') + " - Material 2", url: "https://docs.google.com/document/d/m6_mat_4/preview?rm=minimal" }
+      ],
+      presentations: [
+        { title: t('m6_lo2') + " - Presentation 1", url: "https://docs.google.com/presentation/d/m6_pres_3/embed?rm=minimal" },
+        { title: t('m6_lo2') + " - Presentation 2", url: "https://docs.google.com/presentation/d/m6_pres_4/embed?rm=minimal" }
+      ],
+      taskFiles: [
+        { title: "Task 1", url: "https://docs.google.com/document/d/m6_task_3/preview?rm=minimal" },
+        { title: "Task 2", url: "https://docs.google.com/document/d/m6_task_4/preview?rm=minimal" }
+      ]
+    },
+    "m6_lo3": {
+      title: t('m6_lo3'),
+      moduleName: t('m6_title'),
+      readings: [
+        { title: t('m6_lo3') + " - Material", url: "https://docs.google.com/document/d/m6_mat_5/preview?rm=minimal" }
+      ],
+      presentations: [
+        { title: t('m6_lo3') + " - Presentation", url: "https://docs.google.com/presentation/d/m6_pres_5/embed?rm=minimal" }
+      ],
+      taskFile: "https://docs.google.com/document/d/m6_task_5/preview?rm=minimal"
+    },
     "m7_lo1": {
       title: t('m7_lo1'),
       moduleName: t('m7_title'),
