@@ -125,44 +125,44 @@ const LessonDetail = () => {
       title: t('m6_lo1'),
       moduleName: t('m6_title'),
       readings: [
-        { title: t('m6_lo1') + " - Material 1", url: "https://docs.google.com/document/d/m6_mat_1/preview?rm=minimal" },
-        { title: t('m6_lo1') + " - Material 2", url: "https://docs.google.com/document/d/m6_mat_2/preview?rm=minimal" }
+        { title: t('m6_lo1') + " - Material 1", url: "https://docs.google.com/document/d/1KLSwDTWg9NOAOZg5J3AzMwg65oc4eIlUSu1fdtfSyM0/preview?rm=minimal" },
+        { title: t('m6_lo1') + " - Material 2", url: "https://docs.google.com/document/d/1NfUV4rrWfhNll7xcwHfng_Q48J_GYyXP7NcqXobDPOM/preview?rm=minimal" }
       ],
       presentations: [
-        { title: t('m6_lo1') + " - Presentation 1", url: "https://docs.google.com/presentation/d/m6_pres_1/embed?rm=minimal" },
-        { title: t('m6_lo1') + " - Presentation 2", url: "https://docs.google.com/presentation/d/m6_pres_2/embed?rm=minimal" }
+        { title: t('m6_lo1') + " - Presentation 1", url: "https://docs.google.com/presentation/d/1kOKPMz4ZQSQM3tLHYwfN5ckXOQWbrcmr/embed?rm=minimal" },
+        { title: t('m6_lo1') + " - Presentation 2", url: "https://docs.google.com/presentation/d/1hED1c9_Isahe0Kz_DT2y7cMvvBXTWnIG/embed?rm=minimal" }
       ],
       taskFiles: [
-        { title: "Task 1", url: "https://docs.google.com/document/d/m6_task_1/preview?rm=minimal" },
-        { title: "Task 2", url: "https://docs.google.com/document/d/m6_task_2/preview?rm=minimal" }
+        { title: "Task 1", url: "https://docs.google.com/document/d/1a0IYEYickXr3Oy3SvCBOF_VuveEfPE9X9o1c0BafOvg/preview?rm=minimal" },
+        { title: "Task 2", url: "https://docs.google.com/document/d/1LBHsJBQZmB7AvqgEirovvradCFdBmm8OlPkxLgenNVU/preview?rm=minimal" }
       ]
     },
     "m6_lo2": {
       title: t('m6_lo2'),
       moduleName: t('m6_title'),
       readings: [
-        { title: t('m6_lo2') + " - Material 1", url: "https://docs.google.com/document/d/m6_mat_3/preview?rm=minimal" },
-        { title: t('m6_lo2') + " - Material 2", url: "https://docs.google.com/document/d/m6_mat_4/preview?rm=minimal" }
+        { title: t('m6_lo2') + " - Material 1", url: "https://docs.google.com/document/d/1QAAn9FQBAqR5arE5FnKr08bMhXUuIvF-XCW2PflzPcY/preview?rm=minimal" },
+        { title: t('m6_lo2') + " - Material 2", url: "https://docs.google.com/document/d/19ecM2HqVEW82D42ohibVjX-mz1KKi0879RNQxGCYyxg/preview?rm=minimal" }
       ],
       presentations: [
-        { title: t('m6_lo2') + " - Presentation 1", url: "https://docs.google.com/presentation/d/m6_pres_3/embed?rm=minimal" },
-        { title: t('m6_lo2') + " - Presentation 2", url: "https://docs.google.com/presentation/d/m6_pres_4/embed?rm=minimal" }
+        { title: t('m6_lo2') + " - Presentation 1", url: "https://docs.google.com/presentation/d/14zl_nMRFEkZXis63DM2yTgG7f64IIsuo/embed?rm=minimal" },
+        { title: t('m6_lo2') + " - Presentation 2", url: "https://docs.google.com/presentation/d/1g0a0n1u4LBMATXYAfKkNQ_XtKQTRSCZ3/embed?rm=minimal" }
       ],
       taskFiles: [
-        { title: "Task 1", url: "https://docs.google.com/document/d/m6_task_3/preview?rm=minimal" },
-        { title: "Task 2", url: "https://docs.google.com/document/d/m6_task_4/preview?rm=minimal" }
+        { title: "Task 1", url: "https://docs.google.com/document/d/1s-t-M0w9aPeNcB_HW_zx7Po1s52m5tc8oAct4LxRws8/preview?rm=minimal" },
+        { title: "Task 2", url: "https://docs.google.com/document/d/1tFIGY-apxvVvrzuek6wKkigighzcb1fnO7b2Vmm8bzc/preview?rm=minimal" }
       ]
     },
     "m6_lo3": {
       title: t('m6_lo3'),
       moduleName: t('m6_title'),
       readings: [
-        { title: t('m6_lo3') + " - Material", url: "https://docs.google.com/document/d/m6_mat_5/preview?rm=minimal" }
+        { title: t('m6_lo3') + " - Material", url: "https://docs.google.com/document/d/1is4MF26nGWc2jggpRT3YUUcMMv2WwsI6QxSjlFwirFw/preview?rm=minimal" }
       ],
       presentations: [
-        { title: t('m6_lo3') + " - Presentation", url: "https://docs.google.com/presentation/d/m6_pres_5/embed?rm=minimal" }
+        { title: t('m6_lo3') + " - Presentation", url: "https://docs.google.com/presentation/d/1LutUIi3SdIJReyej95vJduUwcCu4iRKA/embed?rm=minimal" }
       ],
-      taskFile: "https://docs.google.com/document/d/m6_task_5/preview?rm=minimal"
+      taskFile: "https://docs.google.com/document/d/1sdjsDU8-YQmiTy_QDhGUXAv1qK-0T9GuFGw1keTH2rs/preview?rm=minimal"
     },
     "m7_lo1": {
       title: t('m7_lo1'),
